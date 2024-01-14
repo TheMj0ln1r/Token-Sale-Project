@@ -268,7 +268,7 @@ This Token sale project has the following features :
 
 52. **testWithdraw:** This test checks the withdraw function of the TokenSale contract. It expects an event to be emitted indicating an emergency withdrawal and confirms that only authorized accounts can call this function, expecting a revert for unauthorized accounts.
 
-53. **testDeployScript: **This test ensures that the deployment script works correctly. It deploys the contracts using the DeployScript and checks that the token and sale contract addresses are non-zero and that the sale contract has the correct token balance.
+53. **testDeployScript:**This test ensures that the deployment script works correctly. It deploys the contracts using the DeployScript and checks that the token and sale contract addresses are non-zero and that the sale contract has the correct token balance.
 
 And 10 more tests....
 
@@ -295,10 +295,3 @@ $ forge snapshot
 ```shell
 $ forge script script/DeployScript.s.sol:DeployScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
